@@ -49,7 +49,7 @@ public class Uri1045 {
         a2 = a * a;
         b2c2 = b * b + c * c;
 
-        if(a > b + c) {
+        if(a >= b + c) {
             System.out.println("NAO FORMA TRIANGULO");
         } else if(a2 == b2c2) {
             System.out.println("TRIANGULO RETANGULO");
